@@ -81,10 +81,10 @@ void openTwitterStream() {
  
   // OAuth stuff
   ConfigurationBuilder cb = new ConfigurationBuilder();  
-  cb.setOAuthConsumerKey("3hu3d7SkGOgnDBzolWnsrBcai");
-  cb.setOAuthConsumerSecret("AZtSTdKLdITNErx2GciD2wWFc198OCUAKCdkw0VwSq4h7FV0dA");
-  cb.setOAuthAccessToken("2277212354-rQnSTSjDx6HLl3xCacQc9qO2oxdUGrH9ToynkRL");
-  cb.setOAuthAccessTokenSecret("euAvJRCz52fuWYG8kNxMnOtLxzJ7qx5vFNR4I4e8p1jiX"); 
+  cb.setOAuthConsumerKey("***");
+  cb.setOAuthConsumerSecret("***");
+  cb.setOAuthAccessToken("***");
+  cb.setOAuthAccessTokenSecret("***"); 
  
   //the stream object
   TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
